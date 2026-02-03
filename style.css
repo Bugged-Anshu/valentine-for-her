@@ -48,3 +48,10 @@ button {
   font-size: 18px;
   margin: 20px 0;
 }
+
+.memory {
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
