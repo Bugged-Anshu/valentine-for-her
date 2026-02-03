@@ -10,12 +10,13 @@ function goToQuestion() {
 
 function yesClicked() {
   document.getElementById("response").innerHTML =
-    "You just made me the happiest person alive 😭❤️";
+    "I knew it 😌❤️ Happy Valentine’s Day, my Khushi 💕";
 
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 40; i++) {
     createHeart();
   }
 }
+
 
 function createHeart() {
   const heart = document.createElement("div");
@@ -52,5 +53,6 @@ function toggleMusic() {
     isPlaying = false;
   }
 }
+
 
 
