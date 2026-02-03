@@ -88,9 +88,24 @@ button {
 }
 
 .music-btn {
-  display: grid;
-  place-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+
+  /* --- Centering Changes Below --- */
+  display: flex;
+  align-items: center;     /* Vertical center */
+  justify-content: center;  /* Horizontal center */
 }
+
 
 
 
