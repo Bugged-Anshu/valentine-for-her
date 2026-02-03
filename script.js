@@ -1,13 +1,15 @@
-const yesBtn = document.getElementById("yesBtn");
-const noBtn = document.getElementById("noBtn");
-const response = document.getElementById("response");
+function nextSection() {
+  document.querySelector('.card').style.display = "none";
+  document.getElementById('question').style.display = "block";
+}
 
-yesBtn.addEventListener("click", () => {
-  response.innerText = "YAYYY 💕 I knew it! You just made me the happiest person alive 🥹🎉";
-});
+function yesClicked() {
+  document.getElementById("response").innerHTML =
+    "You just made me the happiest person alive 😭❤️";
+}
 
-noBtn.addEventListener("mouseover", () => {
-  noBtn.style.position = "absolute";
-  noBtn.style.left = Math.random() * 80 + "%";
-  noBtn.style.top = Math.random() * 80 + "%";
-});
+function moveButton(btn) {
+  btn.style.position = "absolute";
+  btn.style.top = Math.random() * 80 + "vh";
+  btn.style.left = Math.random() * 80 + "vw";
+}
