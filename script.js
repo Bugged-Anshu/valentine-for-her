@@ -1,5 +1,10 @@
 function nextSection() {
   document.querySelector('.card').style.display = "none";
+  document.getElementById('memories').style.display = "block";
+}
+
+function goToQuestion() {
+  document.getElementById('memories').style.display = "none";
   document.getElementById('question').style.display = "block";
 }
 
