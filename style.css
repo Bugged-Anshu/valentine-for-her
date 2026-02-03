@@ -1,50 +1,50 @@
 body {
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
-  font-family: 'Segoe UI', sans-serif;
-  text-align: center;
-  height: 100vh;
   margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container {
+.card {
   background: white;
   padding: 30px;
   border-radius: 20px;
-  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   max-width: 400px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-h1 {
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff4d6d;
+  color: white;
+}
+
+.no {
+  background: #ddd;
+}
+
+.sub span {
   color: #ff4d6d;
+  font-weight: bold;
 }
 
 .hindi {
   font-size: 18px;
   margin: 20px 0;
-}
-
-.buttons {
-  margin-top: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px;
-}
-
-#yesBtn {
-  background-color: #ff4d6d;
-  color: white;
-}
-
-#noBtn {
-  background-color: #ddd;
 }
