@@ -10,7 +10,7 @@ function goToQuestion() {
 
 function yesClicked() {
   document.getElementById("response").innerHTML =
-    "I knew it 😌❤️ Happy Valentine’s Day, Mo Geluuu 💕";
+    "I knew it 😌❤️ Happy Valentine’s Day, Mo Geluu 💕";
 
   for (let i = 0; i < 40; i++) {
     createHeart();
@@ -53,6 +53,7 @@ function toggleMusic() {
     isPlaying = false;
   }
 }
+
 
 
 
