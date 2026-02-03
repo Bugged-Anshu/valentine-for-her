@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<!-- Valentine rebuild 💖 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>For Harapriya 💖</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Harapriya ❤️</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>Hey Khushi 🌸</h1>
+<div class="card">
+  <h1>Hi Harapriya 💖</h1>
+  <p class="sub">Also known as <span>Khushi</span> ✨</p>
 
-    <p>
-      They say your nickname means happiness…  
-      and honestly, you’ve proven it every single day ❤️
-    </p>
+  <p>
+    Even though I’m not there physically,  
+    my heart is standing right in front of you.
+  </p>
 
-    <p class="hindi">
-      Kya Khushi mere saath apni zindagi  
-      khushi khushi bitani chahti hai? 💕
-    </p>
+  <button onclick="nextSection()">Start 👉</button>
+</div>
 
-    <div class="buttons">
-      <button id="yesBtn">Yes 💖</button>
-      <button id="noBtn">No 🙈</button>
-    </div>
+<div class="card hidden" id="question">
+  <h2>Ek sawaal hai… 🥺</h2>
 
-    <p id="response"></p>
-  </div>
+  <p class="hindi">
+    "Kya Khushi mere saath apni zindagi  
+    <b>khushi khushi</b> bitani chahti hai?" 💍
+  </p>
 
-  <script src="script.js"></script>
+  <button class="yes" onclick="yesClicked()">YES 💖</button>
+  <button class="no" onmouseover="moveButton(this)">NO 🙈</button>
+
+  <p id="response"></p>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
