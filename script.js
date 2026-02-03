@@ -39,3 +39,18 @@ function moveButton(btn) {
   btn.style.left = Math.random() * 80 + "vw";
 }
 
+let isPlaying = false;
+
+function toggleMusic() {
+  const music = document.getElementById("bg-music");
+
+  if (!isPlaying) {
+    music.play();
+    isPlaying = true;
+  } else {
+    music.pause();
+    isPlaying = false;
+  }
+}
+
+
